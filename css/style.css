@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'mbold';
+    src: url('mbold.woff2') format('woff2'),
+         url('mbold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mregular';
+    src: url('mregular.woff2') format('woff2'),
+         url('mregular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.footer {
+	width="80%";
+	border="0";
+	align="center";
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F5F6F7;
+  width: 100%;
+}
+
+li {
+  float: left;
+  position: center;
+
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #1F1F37;
+  color: white;
+}
+
+h1 {
+	font-family: mbold, Arial, Helvetica, sans-serif;
+	font-size:36px;
+}
+
+h2 {
+	font-family: mbold, Arial, Helvetica, sans-serif;
+	font-size:26px;
+}
+
+h3 {
+	font-family: mbold, Arial, Helvetica, sans-serif;
+	font-size:24px;
+}
+
+.button {
+	color: white;
+	background-color: #1F1F37;
+	padding: 10px 20px;
+	border: none;
+	text-align: center;
+	font-family: mbold, Arial, Helvetica, sans-serif;
+	}
+	
+.errorbtn {
+	color: white;
+	background-color: red;
+	padding: 10px 20px;
+	border: none;
+	text-align: center;
+	font-family: mbold, Arial, Helvetica, sans-serif;
+	}
+	
+	.agreebtn {
+	color: white;
+	background-color: green;
+	padding: 10px 20px;
+	border: none;
+	text-align: center;
+	font-family: mbold, Arial, Helvetica, sans-serif;
+	}
+
+a {
+	font-family: mbold, Arial, Helvetica, sans-serif;
+	color: black;
+	text-decoration: none;
+}
+
+p {
+	font-family: mregular, Verdana, Geneva, sans-serif;
+}
+
+b {
+	font-family: mbold, Arial, Helvetica, sans-serif;
+}
+
+.title {
+	font-family: mregular, Arial, Helvetica, sans-serif;
+	font-size: 28px;
+}
+.price {
+	font-size: 24px;
+}
+
+.product {
+  width: 50%;
+  margin: auto;
+  border: 1px solid white;
+}
+
+csbutton {
+	text-color: white;
+}
+
+.descbox {
+width: 50%;	
+}
+.descboxleft {
+width: 50%;	
+text-align: left;
+}
+.descboxright {
+width: 50%;	
+text-align: right;
+}
